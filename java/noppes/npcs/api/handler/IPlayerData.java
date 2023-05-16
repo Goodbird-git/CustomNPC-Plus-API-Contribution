@@ -25,5 +25,5 @@ public interface IPlayerData {
 
     IPlayerMailData getMailData();
 
-    void save();
+    void save(boolean updateClient);
 }
